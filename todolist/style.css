@@ -1,0 +1,32 @@
+/*
+The entire list should have no padding or margin
+*Each list should not have a bullet 
+*/
+.lists ul {
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}
+
+/* 
+The background color of each even list item should be gray (#ee)
+The background color of each odd list item should be dark gray (#f9f9f9)
+The font size for each list item should be 20px
+The top and bottom paddings of each list item should be 14px
+The right and left paddings of each list item should be 10px, and 40px respectively
+*/
+li {
+    color: black;
+    font-size: 20px;
+    list-style: none;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 10px;
+    padding-right: 40px;
+}
+li:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+li:nth-child(even) {
+    background-color: #eee;
+}
